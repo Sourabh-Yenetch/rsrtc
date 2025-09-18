@@ -18,7 +18,7 @@ export const translations = {
     arrival: "Arrival",
     duration: "Duration",
     search: "Search",
-    foundBuses: "Found {count} buses from {from} to {to}. ",
+    foundBuses: "Found {count} {busWord} from {from} to {to}. ",
     firstBusDetails:
       "The first bus is the {name}, a {type} bus, departing from platform number {platform} at {departureTime}. The fare is {fare} Rupees.",
   },
@@ -39,7 +39,7 @@ export const translations = {
     arrival: "आगमन",
     duration: "अवधि",
     search: "खोजें",
-    foundBuses: "{from} से {to} के लिए {count} बसें हैं। ",
+    foundBuses: "{from} से {to} के लिए {count} {busWord} हैं। ",
     firstBusDetails:
       "पहली बस {name} है, जो एक {type} बस है, प्लेटफॉर्म नंबर {platform} से {departureTime} पर प्रस्थान करेगी। किराया {fare} रुपये है।",
   },
