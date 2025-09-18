@@ -124,8 +124,8 @@ export const DUMMY_BUSES: Bus[] = [
   },
   {
     id: "B103",
-    name: "Night Rider",
-    type: "Sleeper",
+    name: "Express Bus",
+    type: "Express",
     from: locations.jaipur,
     to: locations.jodhpur,
     departureTime: "22:00",
@@ -162,8 +162,8 @@ export const DUMMY_BUSES: Bus[] = [
   },
   {
     id: "B105",
-    name: "Desert King Express",
-    type: "Express",
+    name: "Volvo AC",
+    type: "Volvo",
     from: locations.jaipur,
     to: locations.jodhpur,
     departureTime: "16:45",
@@ -183,8 +183,8 @@ export const DUMMY_BUSES: Bus[] = [
   // Jaipur to Delhi routes
   {
     id: "B201",
-    name: "Capital Connect",
-    type: "Volvo",
+    name: "AC Sleeper",
+    type: "Sleeper",
     from: locations.jaipur,
     to: locations.delhi,
     departureTime: "07:00",
@@ -201,8 +201,8 @@ export const DUMMY_BUSES: Bus[] = [
   },
   {
     id: "B202",
-    name: "Highway Star",
-    type: "Sleeper",
+    name: "Super Deluxe",
+    type: "Deluxe",
     from: locations.jaipur,
     to: locations.delhi,
     departureTime: "23:00",
@@ -238,8 +238,8 @@ export const DUMMY_BUSES: Bus[] = [
   },
   {
     id: "B204",
-    name: "Metro Link Deluxe",
-    type: "Deluxe",
+    name: "Fast Passenger",
+    type: "Express",
     from: locations.jaipur,
     to: locations.delhi,
     departureTime: "15:30",
@@ -258,8 +258,8 @@ export const DUMMY_BUSES: Bus[] = [
   // Jodhpur to Jaipur routes
   {
     id: "B301",
-    name: "Desert Queen",
-    type: "Express",
+    name: "AC Sleeper Coach",
+    type: "Sleeper",
     from: locations.jodhpur,
     to: locations.jaipur,
     departureTime: "08:00",
@@ -316,8 +316,8 @@ export const DUMMY_BUSES: Bus[] = [
   // Delhi to Jaipur routes
   {
     id: "B401",
-    name: "Gateway Express",
-    type: "Deluxe",
+    name: "Express Bus",
+    type: "Express",
     from: locations.delhi,
     to: locations.jaipur,
     departureTime: "09:00",
@@ -352,8 +352,8 @@ export const DUMMY_BUSES: Bus[] = [
   },
   {
     id: "B403",
-    name: "Capital Express",
-    type: "Express",
+    name: "Super Deluxe",
+    type: "Deluxe",
     from: locations.delhi,
     to: locations.jaipur,
     departureTime: "14:00",
@@ -409,7 +409,7 @@ export const DUMMY_BUSES: Bus[] = [
   },
   {
     id: "B503",
-    name: "City Palace Volvo",
+    name: "Volvo AC Coach",
     type: "Volvo",
     from: locations.jaipur,
     to: locations.udaipur,
@@ -429,7 +429,7 @@ export const DUMMY_BUSES: Bus[] = [
   // Udaipur to Jaipur routes
   {
     id: "B601",
-    name: "Royal Heritage",
+    name: "Fast Passenger",
     type: "Express",
     from: locations.udaipur,
     to: locations.jaipur,
@@ -468,7 +468,7 @@ export const DUMMY_BUSES: Bus[] = [
   // Jaipur to Bikaner routes
   {
     id: "B701",
-    name: "Desert Route",
+    name: "Fast Passenger",
     type: "Express",
     from: locations.jaipur,
     to: locations.bikaner,
@@ -504,8 +504,8 @@ export const DUMMY_BUSES: Bus[] = [
   },
   {
     id: "B703",
-    name: "Thar Express",
-    type: "Deluxe",
+    name: "Volvo AC Coach",
+    type: "Volvo",
     from: locations.jaipur,
     to: locations.bikaner,
     departureTime: "12:15",
@@ -524,7 +524,7 @@ export const DUMMY_BUSES: Bus[] = [
   // Bikaner to Jaipur routes
   {
     id: "B801",
-    name: "Rat Temple Express",
+    name: "Express Bus",
     type: "Express",
     from: locations.bikaner,
     to: locations.jaipur,
@@ -598,8 +598,8 @@ export const DUMMY_BUSES: Bus[] = [
   },
   {
     id: "B903",
-    name: "Coaching Capital Volvo",
-    type: "Volvo",
+    name: "Express Bus",
+    type: "Express",
     from: locations.jaipur,
     to: locations.kota,
     departureTime: "14:30",
@@ -617,7 +617,7 @@ export const DUMMY_BUSES: Bus[] = [
   // Kota to Jaipur routes
   {
     id: "B1001",
-    name: "Student Special",
+    name: "Express Bus",
     type: "Express",
     from: locations.kota,
     to: locations.jaipur,
@@ -689,8 +689,8 @@ export const DUMMY_BUSES: Bus[] = [
   },
   {
     id: "B1103",
-    name: "Holy City Deluxe",
-    type: "Deluxe",
+    name: "Express Bus",
+    type: "Express",
     from: locations.jaipur,
     to: locations.ajmer,
     departureTime: "18:00",
@@ -744,8 +744,8 @@ export const DUMMY_BUSES: Bus[] = [
   // Mount Abu routes
   {
     id: "B1301",
-    name: "Hill Station Express",
-    type: "Deluxe",
+    name: "Express Bus",
+    type: "Express",
     from: locations.jaipur,
     to: locations.mountabu,
     departureTime: "20:00",
@@ -762,7 +762,7 @@ export const DUMMY_BUSES: Bus[] = [
   },
   {
     id: "B1302",
-    name: "Mountain Queen Sleeper",
+    name: "Green Line",
     type: "Sleeper",
     from: locations.jaipur,
     to: locations.mountabu,
@@ -783,7 +783,7 @@ export const DUMMY_BUSES: Bus[] = [
   // Alwar routes
   {
     id: "B1401",
-    name: "Tiger Express",
+    name: "Express Bus",
     type: "Express",
     from: locations.jaipur,
     to: locations.alwar,
